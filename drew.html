@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>BSdrewMoscoso</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="msapplication-TileColor" content="#303E50">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="author" content="drewmoscoso">
+    <meta name="description" content="drewmoscoso30 portfolio">
+    <meta name="keywords" content="drewmoscoso3030, portfolio, web development, programming, game design">
+    <meta name="theme-color" content="#000000">
+    <meta name="format-detection" content="telephone=no">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q5DSMWE148"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-Q5DSMWE148');
+    </script>
+
+    <link rel="icon" href="./icons/favicon/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./icons/favicon/apple-touch-icon.png">
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Playfair+Display&family=Roboto+Slab&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <canvas class="webgl"></canvas>
+    <nav>
+        <a class="logo" href="/portfolio/">
+            <span class="logoName">D</span>
+            <span class="logoName">R</span>
+            <span class="logoName">E</span>
+            <span class="logoName">W</span>
+            <span class="logoName">-</span>
+            <span class="logoName"></span>
+            <span class="logoName"></span>
+            <span class="logoName"></span>
+            <span class="logoName"></span>
+            <span class="logoName"></span>
+            <span class="logoName"></span>
+
+        </a>
+        <div class="navBig">
+            <a href="#section2" class="navEach" id="navLink1">About</a>
+            <a href="#section3" class="navEach" id="navLink2">Web</a>
+            <a href="#section4" class="navEach" id="navLink3">Game</a>
+            <a href="#section5" class="navEach" id="navLink4">Contact</a>
+        </div>
+        <div class="navSmall">
+            <div class="hamburger">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+            <div class="subMenu">
+                <a href="#section2" class="navEach" id="navLink5">About</a>
+                <a href="#section3" class="navEach" id="navLink6">Web</a>
+                <a href="#section4" class="navEach" id="navLink7">Game</a>
+                <a href="#section5" class="navEach" id="navLink8">Contact</a>
+            </div>
+    </nav>
+    <main>
+        <section id="section1">
+            <div class="sec1Tit" id="content1">Hello,</div>
+            <div class="sec1Name" id="content1">My name is Drew</div>
+            <div class="sec1Des" id="content2">I love to create beautiful things</div>
+            <a href="#section2" class="nextButton1" id="content3">
+                <span class="next"></span>
+                <span class="next"></span>
+                <span class="next"></span>
+            </a>
+        </section>
+        <section id="section2">
+            <div class="sec2Part" id="content1">
+                Hi! my name is Drew and I love building things that live on the internet.
+            </div>
+            <div class="lineSec2" id="content2"></div>
+            <div class="sec2Part" id="content3">
+                <div>I'm a Mid Web Developer 🤖</div>
+                <div class="skill">
+                    <div class="softwarePro"></div>
+                    <div class="softwarePro"></div>
+                    <div class="softwarePro"></div>
+                    <div class="softwarePro"></div>
+                    <div class="softwarePro"></div>
+                    <div class="softwarePro"></div>
+                    <div class="softwarePro"></div>
+                    <div class="softwarePro"></div>
+                    <div class="softwarePro"></div>
+                    <div class="softwarePro"></div>
+                    <div class="softwarePro"></div>
+                    <div class="softwarePro"></div>
+                    <div class="softwarePro"></div>
+                    <div class="softwarePro"></div>
+                    <div class="softwarePro"></div>
+                </div>
+            </div>
+            <div class="lineSec2" id="content4"></div>
+            <div class="sec2Part" id="content5">
+                <div>Beside, I also make games 👾 2D-3D arts 🎨 animations 🌈 and films 🎬</div>
+                <div class="skill">
+                    <div class="softwareDes"></div>
+                    <div class="softwareDes"></div>
+                    <div class="softwareDes"></div>
+                    <div class="softwareDes"></div>
+                    <div class="softwareDes"></div>
+                </div>
+            </div>
+            <a href="#section3" class="nextButton2" id="content6">
+                <span class="next"></span>
+                <span class="next"></span>
+                <span class="next"></span>
+            </a>
+        </section>
+        <section id="section3">
+            <div class="secPortTit" id="content1">I have been working on some WEBs recently</div>
+            <div class="secPortDes" id="content2">You wanna check them out?</div>
+            <div class="secPortFrame" id="content3">
+                <button class="leftright" id="prevWebButton"></button>
+                <button class="leftright" id="nextWebButton"></button>
+                <div class="wrapper" id="webWrapper">
+                    <div class="project" id="webProject">
+                        <div class="projectDes">
+                            <a class="seemoreButton" href="https://github.com/Gitdrew30" target="_blank">
+                                <div class="seemore">&lt; Back-end &gt;</div>
+                            </a>
+                            <a class="seemoreButton" href="https://github.com/Gitdrew30" target="_blank">
+                                <div class="seemore">&lt; Front-end &gt;</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project" id="webProject">
+                        <div class="projectTitle">POKEDEX</div>
+                        <div class="projectImage">
+                            <img class="picture" src="./images/pokedex.jpg">
+                        </div>
+                        <div class="projectSoftware">
+                            <img class="projectIcon" src="./icons/HTML.png">
+                            <img class="projectIcon" src="./icons/CSS.png">
+                            <img class="projectIcon" src="./icons/JavaScript.png">
+                        </div>
+                        <!-- <div class="projectDes">
+                            <a class="seemoreButton" href="#" target="_blank">
+                                <div class="seemore">&lt; Visit page &gt;</div>
+                            </a>
+                        </div> -->
+                    </div>
+                    <div class="project" id="webProject">
+                        <div class="projectTitle">NUMEROLOGY</div>
+                        <div class="projectImage">
+                            <img class="picture" src="./images/ezgif.com-webp-to-jpg.jpg">
+                        </div>
+                        <div class="projectSoftware">
+                            <img class="projectIcon" src="./icons/HTML.png">
+                            <img class="projectIcon" src="./icons/CSS.png">
+                        </div>
+                        <!-- <div class="projectDes">
+                            <a class="seemoreButton" href="#" target="_blank">
+                                <div class="seemore">&lt; Visit page &gt;</div>
+                            </a>
+                        </div> -->
+                    </div>
+                    <div class="project" id="webProject">
+                        <div class="projectTitle">VEGACORNER</div>
+                        <div class="projectImage">
+                            <img class="picture" src="./images/vegacorner.jpg">
+                        </div>
+                        <div class="projectSoftware">
+                            <img class="projectIcon" src="./icons/HTML.png">
+                            <img class="projectIcon" src="./icons/CSS.png">
+                            <img class="projectIcon" src="./icons/JavaScript.png">
+                        </div>
+                        <!-- <div class="projectDes">
+                            <a class="seemoreButton" href="#" target="_blank">
+                                <div class="seemore">&lt; Back-end &gt;</div>
+                            </a>
+                            <a class="seemoreButton" href="#" target="_blank">
+                                <div class="seemore">&lt; Front-end &gt;</div>
+                            </a>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="dotIndex">
+                    <div class="dot" id="dotWeb"></div>
+                    <div class="dot" id="dotWeb"></div>
+                    <div class="dot" id="dotWeb"></div>
+                    <div class="dot" id="dotWeb"></div>
+                    <div class="dot" id="dotWeb"></div>
+                </div>
+            </div>
+            <a href="#section4" class="nextButton2" id="content4">
+                <span class="next"></span>
+                <span class="next"></span>
+                <span class="next"></span>
+            </a>
+        </section>
+        <section id="section4">
+            <div class="secPortTit" id="content1">I made some GAMEs too</div>
+            <div class="secPortDes" id="content2">and I think they are amazing you may take a look :)</div>
+            <div class="secPortFrame" id="content3">
+                <button class="leftright" id="prevGameButton"></button>
+                <button class="leftright" id="nextGameButton"></button>
+                <div class="wrapper" id="gameWrapper">
+                    <div class="project" id="gameProject">
+                        <div class="projectTitle">UNCHARTED 4</div>
+                        <div class="projectImage">
+                            <div class="imageWrap">
+                                <img class="picture" src="./images/Uncharted 4_ A Thief's End (2016) Lead Artist _ Lead Texture Artist, tate mosesian.jpg">
+                            </div>
+                        </div>
+                        <div class="imgIndex">
+                            <!-- <div class="imgButton" id="prevImg"></div> -->
+                            <div class="dotGroup">
+                                <div class="dotImg is-focus"></div>
+                                <!-- <div class="dotImg"></div> -->
+                                <!-- <div class="dotImg"></div> -->
+                            </div>
+                            <!-- <div class="imgButton" id="nextImg"></div> -->
+                        </div>
+                        <div class="projectSecret" id="secret1"></div>
+                    </div>
+                    <div class="project" id="gameProject">
+                        <div class="projectTitle">CALL OF DUTY MOBILE</div>
+                        <div class="projectImage">
+                            <div class="imageWrap">
+                                <img class="picture" src="./images/_NEW_ SEASON 13 COD MOBILE RANK REWARDS.jpg">
+                            </div>
+                        </div>
+                        <div class="imgIndex">
+                            <!-- <div class="imgButton" id="prevImg"></div> -->
+                            <div class="dotGroup">
+                                <div class="dotImg is-focus"></div>
+                            </div>
+                            <!-- <div class="imgButton" id="nextImg"></div> -->
+                        </div>
+
+
+                        <div class="projectSecret" id="secret2"></div>
+                    </div>
+                    <div class="project" id="gameProject">
+                        <div class="projectTitle">MOBILE LEGENDS</div>
+                        <div class="projectImage">
+                            <div class="imageWrap">
+                                <img class="picture" src="./images/𝐥𝐢𝐠𝐡𝐭𝐛𝐨𝐫𝐧 𝐬𝐪𝐮𝐚𝐝 𝐞𝐝𝐢𝐭'𝐬 🦋.jpg">
+                            </div>
+                        </div>
+                        <!-- <div class="imgIndex">
+                            <div class="imgButton" id="prevImg"></div>
+                            <div class="dotGroup">
+                                <div class="dotImg is-focus"></div>
+                                <div class="dotImg"></div>
+                                <div class="dotImg"></div>
+                                <div class="dotImg"></div>
+                                <div class="dotImg"></div>
+                                <div class="dotImg"></div>
+                            </div>
+                            <div class="imgButton" id="nextImg"></div>
+                        </div> -->
+                        <div class="projectSecret" id="secret3"></div>
+                        <div class="projectDes">
+                            <!-- <a class="seemoreButton" href="#" target="_blank">
+                                <div class="seemore">&lt; More details &gt;</div>
+                            </a> -->
+                        </div>
+                    </div>
+                    <div class="imgIndex">
+                        <!-- <div class="imgButton" id="prevImg"></div> -->
+                        <div class="dotGroup">
+                            <!-- <div class="dotImg is-focus"></div>
+                            <div class="dotImg"></div>
+                            <div class="dotImg"></div>
+                            <div class="dotImg"></div> -->
+                        </div>
+                        <!-- <div class="imgButton" id="nextImg"></div> -->
+                    </div>
+                    <div class="projectSecret" id="secret5"></div>
+                    <div class="projectDes">
+                        <!-- <a class="" target="_blank">
+                            <div class="seemore">&lt; Trailer &gt;</div>
+                        </a> -->
+                    </div>
+                </div>
+            </div>
+            <div class="dotIndex">
+                <div class="dot" id="dotGame"></div>
+                <div class="dot" id="dotGame"></div>
+                <div class="dot" id="dotGame"></div>
+                <div class="dot" id="dotGame"></div>
+                <div class="dot" id="dotGame"></div>
+            </div>
+            </div>
+            <a href="#section5" class="nextButton2" id="content4">
+                <span class="next"></span>
+                <span class="next"></span>
+                <span class="next"></span>
+            </a>
+        </section>
+        <section id="section5">
+            <div class="sec5Tit" id="content1"> Let's get in touch!
+                <div class="hand"></div>
+            </div>
+            <div class="secContact" id="content2">
+                <a class="secPhone" href="#" target="_blank">
+                    <div class="phone"></div>
+                    <div class="phoneNumber">099 4877 8153</div>
+                </a>
+                <a class="secMail" href="mailto:andrewbensonmoscoso1130@gmail.com">
+                    <div class="mail"></div>Send message
+                </a>
+            </div>
+            <div class="secSocial" id="content3">
+                <a class="social" href="#" target="_blank"></a>
+                <a class="social" href="https://github.com/Gitdrew30" target="_blank"></a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="copyright">Copyright &copy; 2024 All Rights Reserved by Drew Moscoso</div>
+        <div class="endPage">
+            <button class="sound"></button>
+            <a href="#section1" class="backToTop"></a>
+        </div>
+        <a href="#section1" class="moveUp"></a>
+    </footer>
+    <script type="module" src="./drew.js"></script>
+</body>
+
+</html>
